@@ -1,0 +1,36 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.side-menu {
+  width: 250px;
+  position: fixed;
+  top: 60px; 
+  bottom: 0;
+}
+
+.content {
+  margin-left: 250px;
+  margin-top: 60px; 
+}
+.app {
+  display: flex;
+}
